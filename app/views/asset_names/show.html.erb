@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Game:</strong>
+  <%= @asset_name.game %>
+</p>
+
+<p>
+  <strong>Score:</strong>
+  <%= @asset_name.score %>
+</p>
+
+<%= link_to 'Edit', edit_asset_name_path(@asset_name) %> |
+<%= link_to 'Back', asset_names_path %>

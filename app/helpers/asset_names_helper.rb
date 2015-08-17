@@ -1,0 +1,2 @@
+module AssetNamesHelper
+end
